@@ -1,0 +1,8 @@
+.shape{
+    width: 4rem;
+    height: 0.5rem;
+    background-color: var(--main-color);
+    border-top-left-radius: 4rem;
+    border-bottom-right-radius: 4rem;
+    margin-right: 0.5rem;
+}

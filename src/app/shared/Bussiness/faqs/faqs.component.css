@@ -1,0 +1,7 @@
+:host ::ng-deep
+.p-icon {
+    color: var(--main-color);
+    border-radius: 50%;
+    border: 2px solid var(--main-color);
+    padding: 2px;
+}

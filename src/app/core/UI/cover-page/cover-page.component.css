@@ -1,0 +1,38 @@
+
+#cover{
+    /* background-image: url('/Images/home.svg'); */
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+h1{
+    font-size: 5rem;
+}
+
+
+@media screen and (max-width:800px){
+    h1{
+        font-size: 4rem;
+    }    
+}
+
+
+@media screen and (max-width:650px){
+    h1{
+        font-size: 3rem;
+    }    
+}
+
+@media screen and (max-width:470px){
+    h1{
+        font-size: 2rem;
+    }    
+}
+
+@media screen and (max-width:300px){
+    h1{
+        font-size: 1rem;
+    }    
+}

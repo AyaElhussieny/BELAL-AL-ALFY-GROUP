@@ -1,1 +1,92 @@
 /* You can add global styles to this file, and also import other style files */
+@import "primeicons/primeicons.css";
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+:root {
+    --main-color: #FFCE4D;
+    --black-color: #070F2B;
+    --white-color: #F9FAFB;
+    --gray-color: #6B7280;
+    --light-color :#D1D5DB;
+  }
+  
+  .main {
+    color: var(--main-color);
+  }
+  
+  .bg-main {
+    background-color: var(--main-color);
+    color: var(--black-color);
+  }
+  .bg-black{
+    background-color: var(--black-color);
+    color: var(--white-color);
+  }
+  .tx-white{
+    color: var(--white-color);
+  }
+  
+  .bg-icon {
+    background-color: var(--main-color);
+    color: var(--white-color);
+  }
+  .gray {
+    color: var(--gray-color);
+  }
+  
+  .black {
+    color: var(--black-color);
+  }
+  
+  .gray {
+    color: var(--gray-color);
+  }
+  
+  .w-fit {
+    width: fit-content;
+  }
+  
+.font-outfit-bold {
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .font-outfit-semiBold {
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .font-outfit-medium {
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .font-outfit-regular {
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .font-bigTitle{
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .font-smallTitle{
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }

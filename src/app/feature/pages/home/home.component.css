@@ -1,0 +1,38 @@
+#footer_home{
+    border-top: 2px solid var(--main-color);
+    border-top-left-radius: 5rem;
+    border-top-right-radius: 5rem;
+}
+
+.first , .second{
+    border-right: 3px solid var(--main-color);
+}
+
+.First , .Second{
+    border-right: 3px solid var(--light-color);
+}
+
+#services{
+    background-image: url('/Images/bg-srvices.svg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+#faqs{
+    background-image: url('/Images/bg-fqas.svg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+#world{
+    background-image: url('/Images/banner-background.svg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+#world .card{
+    height: 300px;
+}
+

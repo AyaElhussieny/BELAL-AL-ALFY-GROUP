@@ -1,0 +1,13 @@
+<p-carousel [value]="images"  [numVisible]="1" [numScroll]="1"  [circular]="true" [responsiveOptions]="responsiveOptions" autoplayInterval="4000">
+    <ng-template #item let-item>
+        <!-- <img [src]="item" style="width: 100%; display: block;" /> -->
+         <div id="slider" style="background-image: url('{{item.img}}');">
+            <div class="layer d-flex justify-content-center align-items-center">
+                <div class="title pt-5 text-capitalize text-center tx-white">
+                    <h1 class="font-bigTitle" *ngFor="let text of item.title">{{text}}</h1>
+                    <h5 *ngFor="let tx of item.smallTitle" >{{tx}}</h5>
+                </div>
+            </div>
+         </div>
+    </ng-template>
+</p-carousel>

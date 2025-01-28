@@ -1,0 +1,27 @@
+.navbar .nav-link{
+    color: var(--white-color);
+    font-size: 1.2rem;
+    margin: 0 1.2rem;
+}
+
+.navbar{
+    border-bottom: 3px solid var(--main-color);
+    border-bottom-right-radius:5rem ;
+    border-bottom-left-radius:5rem ;
+}
+
+.navbar-nav .nav-link.active ,.nav-link:focus{
+    color: var(--main-color);
+}
+.navbar-toggler {
+    background-color: var(--main-color);
+    margin-right: 2rem;
+
+}
+/* .navbar-nav[_ngcontent-ng-c3899810634] .nav-link.active[_ngcontent-ng-c3899810634], .nav-link[_ngcontent-ng-c3899810634]:focus {
+        color: var(--main-color);
+} */
+
+/* .contact:focus {
+    color: var(--white-color);
+} */

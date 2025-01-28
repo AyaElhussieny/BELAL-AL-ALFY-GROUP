@@ -1,0 +1,42 @@
+#footer{
+  border-top: 3px solid var(--main-color);
+  border-top-right-radius:5rem ;
+  border-top-left-radius:5rem ;
+  /* background-image: url('/Images/Footer_img.svg'); */
+  background-size: cover;
+}
+.icons .icon i{
+    font-size: 1.2rem;;
+    color: var(--white-color);
+
+}
+
+.title{
+    border-bottom:3px solid var(--main-color) ;
+    max-width: fit-content;
+}
+
+
+.icon{
+    width: 2rem;
+    height: 2rem;
+    margin: 0 1rem;
+    border-radius: 50%;
+    background-color: var(--main-color);
+    color: var(--white-color);
+
+}
+
+a{
+    color: var(--white-color);
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+hr{
+    color: var(--main-color);
+    opacity : 1;
+}

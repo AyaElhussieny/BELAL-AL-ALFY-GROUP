@@ -1,0 +1,157 @@
+<div id="page_home" class="">
+    <div id="home" class="font-outfit-medium position-relative black">
+        <app-cover-home />
+        <div id="footer_home" class="position-absolute bottom-0 start-0 end-0 bg-black">
+            <div class="container">
+                <div class="row  text-center py-3">
+                    <div class="first col-4">
+                        <h1>+550</h1>
+                        <h4>Project</h4>
+                    </div>
+                    <div class="second col-4">
+                        <h1>+2k</h1>
+                        <h4>Clients</h4>
+                    </div>
+                    <div class="last col-4">
+                        <h1>+10</h1>
+                        <h4>Experience</h4>
+                    </div>
+                 </div>
+            </div>
+        </div> 
+    </div>
+    <div id="about" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <app-start-title [smallTitle]="'About Us'" [bigTitle]="'innovative ideas stylish \n designs'" />
+                    <p class="font-outfit-regular gray">Belal el Alfy Group is a distinguished architectural and design firm renowned for its innovative, client-centric approach to creating exceptional spaces. Founded by Arch. Belal el Alfy in 2014, the firm has successfully completed over 550 diverse projects, encompassing residential, commercial, and governmental sectors.</p>
+                    <div class="works font-outfit-regular d-flex justify-content-start align-items-center text-capitalize">
+                        <p class=""><app-check-icon/>Flexible Time</p>
+                        <p class="me-3"><app-check-icon/>client priority</p>
+                        <p class="me-3"><app-check-icon/>perfect work</p>
+                    </div>
+                    <div class="row  my-3">
+                        <div class="First col-4">
+                            <h1>+550</h1>
+                            <h4>Project</h4>
+                        </div>
+                        <div class="Second col-4">
+                            <h1>+10</h1>
+                            <h4>Experience</h4>
+                        </div>
+                        <div class="Last col-4">
+                            
+                            <h1>+2k</h1>
+                            <h4>Clients</h4>
+                        </div>
+                     </div>
+    
+                     <app-main-btn [btnName]="'Learn More'"/>
+                </div>
+    
+                <div class="col-md-6">
+                    <div class="row gy-3">
+                        <div class="col-md-6">
+                            <img width="100%" src="Images/home11.svg" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <img width="100%" src="Images/home12.svg" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <img width="100%" src="Images/home13.svg" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <img width="100%" src="Images/home14.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div id="services" class="py-5">
+    <div class="container tx-white">
+        <app-start-title [smallTitle]="'Our services'" [bigTitle]="'Comprehensive Solutions for Exceptional Spaces'" />
+        <div class="row mt-3 align-items-center gy-3">
+            <div class="col-md-6">
+                <app-card-services [imgUrl]="'Images/service01.svg'" [numCard]="'01'" [title]="'Architectural Design'"
+                [description]="'Crafting bespoke designs that harmonize functionality with aesthetic appeal, tailored to each clients unique vision.'"/>
+            </div>
+    
+            <div class="col-md-6">
+                <app-card-services [imgUrl]="'Images/service02.svg'" [numCard]="'02'" [title]="'Interior Design'"
+                 [description]="'Developing comprehensive interior solutions that reflect the clients personality and lifestyle, ensuring cohesive and inspiring environments.'" />
+            </div>
+    
+            <div class="col-md-6">
+                <app-card-services [imgUrl]="'Images/service03.svg'" [numCard]="'03'" [title]="'Project Management'"
+                [description]="'Providing end-to-end project oversight to ensure timely delivery and adherence to the highest quality standards'" />
+            </div>
+    
+            <div class="col-md-6">
+                <app-card-services [imgUrl]="'Images/service04.svg'" [numCard]="'04'" [title]="'3D Visualization'"
+                [description]="'Utilizing advanced 3D modeling and rendering techniques to offer clients a realistic preview of their projects.'"/>
+            </div>
+        </div>
+    
+        <app-main-btn class="text-center mt-5" [btnName]="'Learn More'" />
+    
+    </div>
+    </div>
+    
+    <div id="faqs" class="py-5 ">
+       <div class="container">
+        <app-start-title class="tx-white" [smallTitle]="'FAQs'" [bigTitle]="'Find answers to the most common \n questions about our services, processes, and \n how we can bring your vision to life'"/>
+        <app-faqs />
+       </div>
+    </div>
+    
+    
+    <div id="world" class="pt-5 tx-white bg-black">
+        <div class="container">
+            <app-start-title [smallTitle]="'how we works'"
+            [bigTitle]="'Discover our streamlined process, combining \n creativity, precision, and collaboration '" />
+            <div class="row align-items-center mb-5">
+                <div class="col-md-4">
+                    <div class="card rounded-4 p-2">
+                      <div class="d-flex mb-2 justify-content-between align-items-center">
+                        <img src="Images/home-icon01.svg" alt="">
+                        <h1 class="numCard black font-bigTitle ">01</h1>
+                      </div>
+                      <h4 class="font-outfit-semiBold">Understand Your Vision</h4>
+                      <p class="font-outfit-regular mb-0 gray">We start by listening to your ideas, goals, and preferences.</p>
+                      <p class="font-outfit-regular gray">Through in-depth discussions, we gather insights to ensure our designs align perfectly with your needs.</p>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="card rounded-4 p-2">
+                      <div class="d-flex mb-2 justify-content-between align-items-center">
+                        <img src="Images/home-icon02.svg" alt="">
+                        <h1 class="numCard black font-bigTitle ">02</h1>
+                      </div>
+                      <h4 class="font-outfit-semiBold">Design and Visualize</h4>
+                      <p class="font-outfit-regular mb-0 gray">Our team crafts innovative concepts and detailed plans tailored to your project.</p>
+                      <p class="font-outfit-regular gray">Using advanced 3D visualization, we present realistic previews, helping you see the final outcome before execution.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card rounded-4 p-2">
+                      <div class="d-flex mb-2 justify-content-between align-items-center">
+                        <img src="Images/home-icon03.svg" alt="">
+                        <h1 class="numCard black font-bigTitle ">03</h1>
+                      </div>
+                      <h4 class="font-outfit-semiBold">Execute with Precision</h4>
+                      <p class="font-outfit-regular mb-0 gray">From project management to final delivery, we handle everything with meticulous attention to detail.</p>
+                      <p class="font-outfit-regular gray">We ensure timely execution and maintain the highest quality standards, turning your dream into reality.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <app-footer class="mb-0" />
+    </div>
+</div>
